@@ -21,6 +21,24 @@ body {
 
 }
 
+.container{
+  width: 1200px;
+
+}
+
+.flexbox{
+
+}
+
+.header{
+  border-bottom: 1px solid #ECECEC;
+}
+.section {
+padding-top: 94px;
+padding-bottom: 94px;
+}
+
+
 .logo-dark{
   color: var(--black);
 }
@@ -167,7 +185,7 @@ color: var(--font-color-second)
 }
 
 .portfolio-figure{
-  border: 1px solid var(--figure-border);
+  border-bottom: 1px solid var(--figure-border);
 }
 
 .portfolio-card h3{
