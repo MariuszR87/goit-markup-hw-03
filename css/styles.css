@@ -20,8 +20,9 @@ body {
   background-color: var(--background-color-main);
   
   /* DODANE */
-  margin: 0;
-  padding: 0;
+  box-sizing: border-box;
+  /* margin: 0;
+  padding: 0; */
 
 }
 .page{
@@ -35,28 +36,41 @@ body {
   margin: 0 auto;
 }
 
-.header-list{
-}
 
+/* ZABAWA Z FLEXBOX */
+.page-header{
+  display: flex;
+  align-items: center;
+  height: 80px;
 
-
-
-.header{
   border-bottom: 1px solid #ECECEC;
-  /* display: inline; */
 }
-.section {
-padding-top: 94px;
-padding-bottom: 94px;
+.page-header:first-child{
+padding-left: 0;
+
+}
+.page-header:last-child{
+ padding-right: 0;
+  }
+
+.menu-list{
+display: flex;
+list-style: none;
+width: 254;
+text-align: justify;
+margin-left: 93px;
+margin-right: 371px;
 }
 
-
-.logo-dark{
-  color: var(--black);
+.menu-list:first-child{
+padding-left: 0;
+}
+.menu-list:last-child{
+padding-right: 0;
 }
 
-.logo-white{
-  color: var(--white);
+.menu-list .links{
+  display: block;
 }
 
 .logo{
@@ -66,8 +80,26 @@ padding-bottom: 94px;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
-  padding: 24px 93px 24px 0;
 }
+
+.logo-dark{
+  color: var(--black);
+}
+
+.logo-white{
+  color: var(--white);
+}
+
+
+.section {
+padding-top: 94px;
+padding-bottom: 94px;
+}
+
+
+
+
+
 
 .nav-item{
   text-decoration: none;
