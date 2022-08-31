@@ -33,9 +33,8 @@ body {
   width: 1200px;
   border: solid black;
   margin: 0 auto;
-
-
 }
+
 .header-list{
 }
 
@@ -44,6 +43,7 @@ body {
 
 .header{
   border-bottom: 1px solid #ECECEC;
+  /* display: inline; */
 }
 .section {
 padding-top: 94px;
@@ -84,8 +84,20 @@ padding-bottom: 94px;
 .list{
   list-style: none;
   display: flex;
+/* HW3 */
 
 }
+.list-one-line:first-child{
+padding-left: 0;
+/* margin-left: 0; */
+}
+
+.list-one-line:last-child{
+  padding-right: 0;
+  /* margin-right: 0; */
+}
+
+
 
 .links-contact {
   
@@ -130,7 +142,6 @@ cursor: pointer;
 
   /* Dodane HW3 */
   height: 600px;
-
 }
 
 .main-box-btn {
@@ -204,6 +215,9 @@ color: var(--font-color-second)
 .index-figure{
   background-color: var(--background-color-main);
   border: 1px solid var(--figure-border);
+
+  margin: 0;
+  padding: 0;
 }
 
 .index-figure p{
