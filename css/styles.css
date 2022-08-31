@@ -134,9 +134,9 @@ padding-bottom: 94px;
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
-/* .links-contact:first-of-type{
+.margin-right50-header{
   margin-right: 50px;
-} */
+}
 
 .active-page {
   color: var(--blue);
