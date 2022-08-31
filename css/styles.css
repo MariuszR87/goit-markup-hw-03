@@ -110,22 +110,6 @@ padding-bottom: 94px;
   text-decoration: none;
 }
 
-.list{
-  list-style: none;
-  display: flex;
-/* HW3 */
-
-}
-.list-one-line:first-child{
-padding-left: 0;
-/* margin-left: 0; */
-}
-
-.list-one-line:last-child{
-  padding-right: 0;
-  /* margin-right: 0; */
-}
-
 .links-contact {
   color: var(--font-color-second);
   font-weight: 500;
@@ -163,6 +147,7 @@ background-color: var(--hover-color);
 color: var(--white);
 cursor: pointer;
 }
+
 .main-box{
   background-color: var(--background-color-secondary);
 
@@ -188,6 +173,20 @@ width: 200px;
 text-align: center;
 }
 
+/* LISTA LOREM IPSUM */
+.list {
+  list-style: none;
+  display: flex;
+}
+.list-one-line:first-child{
+padding-left: 0;
+margin-left: 0;
+}
+.list-one-line:last-child{
+  padding-right: 0;
+  margin-right: 0;
+}
+
 .class-h1 {
   font-weight: 900;
   font-size: 44px;
@@ -208,6 +207,7 @@ text-align: center;
   line-height: 1.16;
   text-align: center;
   letter-spacing: 0.03em;
+  margin-top: 0;
 }
 
 .class-h3 {
@@ -235,6 +235,7 @@ color: var(--font-color-second)
 
 .section-not-white{
   background-color: var(--not-white);
+  padding: 94px 215px 94px;
 }
 
 .index-figure{
