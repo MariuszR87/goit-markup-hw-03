@@ -14,13 +14,19 @@
 --fotter-links: #ffffff99;
 }
 
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 body {
   font-family: 'Roboto', sans-serif;
   color: var(--font-color-main);
   background-color: var(--background-color-main);
   
   /* DODANE */
-  box-sizing: border-box;
+  /* box-sizing: border-box; */
   /* margin: 0;
   padding: 0; */
 
@@ -234,7 +240,7 @@ font-size: 14px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
-  text-align: center;
+  text-align: left;
   letter-spacing: 0.03em;
 }
 
@@ -270,8 +276,15 @@ color: var(--font-color-second)
 .portfolio-figure{
   border-bottom: 1px solid var(--figure-border);
 }
+.portfolio-card{
+  margin: auto;
+}
 
-.portfolio-card h3{
+.portfolio-figure figcaption{
+padding-left: 24px;
+}
+
+.portfolio-card h4{
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -284,7 +297,21 @@ color: var(--font-color-second)
   line-height: 1.88;
   letter-spacing: 0.03em;
   color:var(--font-color-second)
+
 }
+.card-set{
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+
+  gap: 30;
+  column-gap: 30px;
+}
+
+.item{
+  flex-basis: calc((100% - 2 * 30px) / 3);
+}
+
  /* FOOTER */
 .footer{
   background: #2F303A;
