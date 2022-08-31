@@ -44,6 +44,8 @@ body {
   height: 80px;
 
   border-bottom: 1px solid #ECECEC;
+  padding-top: 24px;
+  padding-bottom: 25px;
 }
 .page-header:first-child{
 padding-left: 0;
@@ -153,6 +155,12 @@ cursor: pointer;
 
   /* Dodane HW3 */
   height: 600px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.main-box-container{
+  
 }
 
 .main-box-btn {
@@ -176,6 +184,10 @@ text-align: center;
 /* LISTA LOREM IPSUM */
 .list {
   list-style: none;
+  display: flex;
+}
+.list-one-line{
+  justify-items: right;
   display: flex;
 }
 .list-one-line:first-child{
