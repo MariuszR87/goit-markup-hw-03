@@ -171,14 +171,15 @@ cursor: pointer;
 .main-box{
   background-color: var(--background-color-secondary);
 
-  /* Dodane HW3 */
-  height: 600px;
-  padding-top: 0px;
-  padding-bottom: 0px;
+  /* padding-top: 0px;
+  padding-bottom: 0px; */
 }
 
 .main-box-container{
-  
+  text-align: center;
+  padding: 200px;
+  height: 600px;
+  height: auto;
 }
 
 .main-box-btn {
@@ -197,6 +198,9 @@ border-radius: 4px;
 margin: 30px auto;
 width: 200px;
 text-align: center;
+cursor: pointer;
+border-style: none;
+
 }
 
 /* LISTA LOREM IPSUM */
@@ -227,7 +231,6 @@ margin-left: 0;
   margin: 0 auto;
   
   /* Dodane HW3 */
-  padding-top: 200px;
   width: 696px;
   }
 
