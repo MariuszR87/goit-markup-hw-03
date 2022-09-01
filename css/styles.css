@@ -46,7 +46,7 @@ body {
 
 .container{
   width: 1200px;
-  border: solid black;
+  /* border: solid black; */
   margin: 0 auto;
 }
 
@@ -162,6 +162,10 @@ text-align: center;
 letter-spacing: 0.03em;
 }
 
+.btn-porfolio{
+  padding: 6px 22px 6px 22px;
+}
+
 .btn:hover,btn:focus {
 background-color: var(--hover-color);
 color: var(--white);
@@ -201,6 +205,19 @@ cursor: pointer;
 .main-box-btn:hover, .main-box-btn:focus{
   cursor: pointer;
   background-color: darkcyan;
+}
+/* portfolio */
+.filter-btn{
+  padding: 0px 0px 50px 0px;
+  gap: 8px;
+  justify-content: center;
+  display: flex;
+  list-style: none;
+  padding-inline-start: 40px;
+}
+
+.btn-porfolio{
+  padding: 6px 22px 6px 22px;
 }
 
 /* LISTA LOREM IPSUM */
@@ -256,6 +273,16 @@ margin-bottom: 10px;
   text-align: left;
   letter-spacing: 0.03em;
 }
+.class-h4-index {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+  letter-spacing: 0.03em;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
 
 .text-paragraph{
 font-size: 14px;
@@ -274,9 +301,10 @@ color: var(--font-color-second)
 .index-figure{
   background-color: var(--background-color-main);
   border: 1px solid var(--figure-border);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+  padding-bottom: 30px;
 
-  margin: 0;
-  padding: 0;
 }
 
 .index-figure p{
@@ -326,6 +354,13 @@ padding-left: 24px;
 .item{
   flex-basis: calc((100% - 2 * 30px) / 3);
 }
+
+.job-item{
+  flex-basis: calc((100% - 2 * 30px) / 3);
+}
+.team-item:{
+  calc((100% - 90px) / 4);
+} 
 
  /* FOOTER */
 .footer{
