@@ -180,30 +180,27 @@ cursor: pointer;
   padding: 200px;
   height: 600px;
   height: auto;
+
   
 }
 
 .main-box-btn {
-font-family: 'Roboto';
-font-weight: 700;
-font-size: 16px;
-line-height: 1.88;
-display: flex;
-letter-spacing: 0.06em;
-color: var(--white);
-background: var(--blue);
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-border-radius: 4px;
-
-/* Dodane HW3 */
-margin: 30px auto;
-width: 200px;
-text-align: center;
-cursor: pointer;
-border-style: none;
-padding: 10px 42px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+  color: var(--white);
+  background: var(--blue);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  margin-top: 30px;
+  text-align: center;
+  border-style: none;
+  padding: 10px 42px;
 }
-
+.main-box-btn:hover, .main-box-btn:focus{
+  cursor: pointer;
+}
 
 /* LISTA LOREM IPSUM */
 .list {
