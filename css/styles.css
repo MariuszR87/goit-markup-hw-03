@@ -200,6 +200,7 @@ cursor: pointer;
 }
 .main-box-btn:hover, .main-box-btn:focus{
   cursor: pointer;
+  background-color: darkcyan;
 }
 
 /* LISTA LOREM IPSUM */
@@ -208,8 +209,9 @@ cursor: pointer;
   display: flex;
 }
 .list-one-line{
-  justify-items: right;
+  justify-items: center;
   display: flex;
+  column-gap: 30px;
 }
 .list-one-line:first-child{
 padding-left: 0;
@@ -240,6 +242,7 @@ margin-left: 0;
   text-align: center;
   letter-spacing: 0.03em;
   margin-top: 0;
+  margin-bottom: 50px;
 }
 
 .class-h3 {
@@ -248,6 +251,8 @@ line-height: 1.14;
 text-transform: uppercase;
 letter-spacing: 0.03em;
 font-size: 14px;
+margin-bottom: 10px;
+
 }
 
 .class-h4 {
