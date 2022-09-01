@@ -209,18 +209,12 @@ cursor: pointer;
   display: flex;
 }
 .list-one-line{
-  justify-items: center;
+  justify-content: center;
   display: flex;
   column-gap: 30px;
 }
-.list-one-line:first-child{
-padding-left: 0;
-margin-left: 0;
-}
-.list-one-line:last-child{
-  padding-right: 0;
-  margin-right: 0;
-}
+
+
 
 .class-h1 {
   font-weight: 900;
@@ -348,6 +342,7 @@ padding-left: 24px;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
+  margin-top: 20px;
 }
 
 .footer-links-contact {
@@ -357,4 +352,6 @@ padding-left: 24px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--fotter-links);
+  margin-top: 9px;
+  margin-bottom: 9px;
 }
