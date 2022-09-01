@@ -359,7 +359,7 @@ padding-left: 24px;
   flex-basis: calc((100% - 2 * 30px) / 3);
 }
 .team-item:{
-  calc((100% - 90px) / 4);
+  flex-basis: calc((100% - 90px) / 4);
 } 
 
  /* FOOTER */
