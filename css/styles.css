@@ -40,7 +40,7 @@ body {
 
 }
 .wrapper{
-  width: 1600px;
+  width: 100%;
   background-color: var(--background-color-main);
 }
 
@@ -180,6 +180,7 @@ cursor: pointer;
   padding: 200px;
   height: 600px;
   height: auto;
+  
 }
 
 .main-box-btn {
@@ -200,8 +201,9 @@ width: 200px;
 text-align: center;
 cursor: pointer;
 border-style: none;
-
+padding: 10px 42px;
 }
+
 
 /* LISTA LOREM IPSUM */
 .list {
@@ -268,7 +270,7 @@ color: var(--font-color-second)
 
 .section-not-white{
   background-color: var(--not-white);
-  padding: 94px 215px 94px;
+  /* padding: 94px 215px 94px; */
 }
 
 .index-figure{
