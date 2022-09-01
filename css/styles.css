@@ -378,6 +378,8 @@ padding-left: 24px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   margin-top: 20px;
+  display: flex;
+  flex-direction: column;
 }
 
 .footer-links-contact {
@@ -388,5 +390,4 @@ padding-left: 24px;
   letter-spacing: 0.03em;
   color: var(--fotter-links);
   margin-top: 9px;
-  margin-bottom: 9px;
 }
