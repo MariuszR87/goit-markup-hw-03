@@ -358,7 +358,8 @@ padding-left: 24px;
 .job-item{
   flex-basis: calc((100% - 2 * 30px) / 3);
 }
-.team-item:{
+
+.team-item {
   flex-basis: calc((100% - 90px) / 4);
 } 
 
