@@ -47,38 +47,37 @@ body {
   padding-top: 94px;
   padding-bottom: 94px;
   }
+
 .header{
+  padding: 24px 15px 25px 15px;
   border-bottom: 1px solid #ECECEC;
  }
 .page-header{
   display: flex;
   align-items: center;
-  gap: 93px;
-  padding-top: 24px;
-  padding-bottom: 25px;
+  border: 1px solid #0a0a0a;
 }
 
 .page-header:first-child{
-padding-left: 0;
+padding-left: 15px;
 }
 
 .page-header:last-child{
- margin-right: 0;
+  justify-items: right;
+ padding-right: 15px;
   }
 
 .menu-list{
 display: flex;
 list-style: none;
-/* width: 254; */
 text-align: justify;
 align-items: justify;
 /* margin-left: 93px; */
-/* margin-right: 371px; */
 gap: 46px;
 }
 
 .menu-list:first-child{
-padding-left: 0;
+  margin-left: 93px;
 }
 .menu-list:last-child{
 padding-right: 0;
@@ -124,6 +123,10 @@ padding-right: 0;
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
+.page-header .links-contact{
+  
+}
+
 
 .margin-right50-header{
   margin-right: 50px;
