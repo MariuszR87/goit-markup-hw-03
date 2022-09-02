@@ -123,9 +123,9 @@ padding-right: 0;
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
-.page-header > .links-contact{
-  align-items: flex-end;
-  justify-content: end;
+
+.menu.flex-end {
+  justify-content: flex-end;
 }
 
 .margin-right50-header{
