@@ -47,12 +47,13 @@ body {
   padding-top: 94px;
   padding-bottom: 94px;
   }
-
+.header{
+  border-bottom: 1px solid #ECECEC;
+ }
 .page-header{
   display: flex;
   align-items: center;
-
-  border-bottom: 1px solid #ECECEC;
+  gap: 93px;
   padding-top: 24px;
   padding-bottom: 25px;
 }
@@ -68,11 +69,11 @@ padding-left: 0;
 .menu-list{
 display: flex;
 list-style: none;
-width: 254;
+/* width: 254; */
 text-align: justify;
 align-items: justify;
-margin-left: 93px;
-margin-right: 371px;
+/* margin-left: 93px; */
+/* margin-right: 371px; */
 gap: 46px;
 }
 
