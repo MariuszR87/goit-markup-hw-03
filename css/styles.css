@@ -123,10 +123,10 @@ padding-right: 0;
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
-.page-header .links-contact{
-  
+.page-header > .links-contact{
+  align-items: flex-end;
+  justify-content: end;
 }
-
 
 .margin-right50-header{
   margin-right: 50px;
