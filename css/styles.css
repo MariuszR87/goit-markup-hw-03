@@ -68,7 +68,7 @@ body {
   display: flex;
   
   align-items: center;
-  border: 1px solid #0a0a0a;
+  /* border: 1px solid #0a0a0a; */
   padding-top: 24px;
   padding-bottom: 25px;
 }
