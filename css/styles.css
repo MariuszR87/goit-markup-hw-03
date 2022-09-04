@@ -277,6 +277,8 @@ color: var(--font-color-second)
   padding-bottom: 30px;
   padding-right: 0;
   margin-right: 0;
+  box-sizing: border-box;
+  max-width: 270px;
 }
 
 .index-figure p{
@@ -292,12 +294,13 @@ color: var(--font-color-second)
   border: 1px solid var(--figure-border);
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+  max-width: 370px;
 }
 
 .portfolio-card{
   box-sizing: border-box;
   margin: auto;
-  padding: 0 12px;
 }
 
 .portfolio-figure figcaption{
@@ -327,9 +330,13 @@ padding:20px 24px;
   list-style: none;
   gap: 30px;
   column-gap: 30px;
+  max-width: 1170px;
+  box-sizing: border-box;
+
 }
 
 .li-item{
+  box-sizing: border-box;
   flex-basis: calc((100% - 2 * 30px) / 3);
 }
 
