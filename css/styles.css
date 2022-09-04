@@ -51,7 +51,6 @@ body {
   background-color: var(--background-color-main);
 }
 .header{
-  margin: 0 auto;
   border-bottom: 1px solid #ECECEC;
  }
 
@@ -69,7 +68,6 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  /* border: 1px solid #0a0a0a; */
   padding-top: 24px;
   padding-bottom: 25px;
 }
@@ -96,14 +94,15 @@ body {
 .menu-list{
 display: flex;
 list-style: none;
-/* text-align: justify;
-align-items: flex-start; */
+text-align: justify; 
 gap: 46px;
 }
 
-.menu-list .links{
-  display: block;
+.test1 {
+  display: flex;
+  align-items: center;
 }
+
 
 .nav-item{
   color: var(--font-color-main);
@@ -123,17 +122,9 @@ gap: 46px;
   letter-spacing: 0.02em;
 }
 
-.menu-flex-end {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
 .margin-right50-header{
   margin-right: 50px;
 }
-/* .margin-left-header{
-  margin-left: 364px;
-} */
 
 .active-page {
   color: var(--blue);
