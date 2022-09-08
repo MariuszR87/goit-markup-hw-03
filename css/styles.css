@@ -291,11 +291,16 @@ color: var(--font-color-second)
 }
 
 .portfolio-figure{
-  border: 1px solid var(--figure-border);
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   max-width: 370px;
+}
+.figcaption-border{
+ margin-top: 0;
+  border-right: 1px solid var(--figure-border);
+  border-bottom: 1px solid var(--figure-border);
+  border-left: 1px solid var(--figure-border);
 }
 
 .portfolio-card{
